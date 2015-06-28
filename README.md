@@ -1,5 +1,20 @@
 # spring-bean-swap-example
 Swapping Spring Beans at Runtime
 
-com.tristanchanson.service.mock package contains all the classes needed to inject the mock at runtime
-if this package is removed the production code will use the real implementation.
+Clone repo
+  git clone
+  
+Build project
+  gradle build
+
+Run Project
+  gradle bootRun
+  
+Open Browser and goto
+http://localhost:8080/
+
+to swap implementation goto
+http://localhost:8080/swap
+
+then to see swap results
+http://localhost:8080/
