@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: spring-bean-swap-example
+server:
+    port: 8080
