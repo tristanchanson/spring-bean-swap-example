@@ -1,11 +1,13 @@
 package com.tristanchanson.service.mock;
 
 import com.tristanchanson.service.RealService;
-import com.tristanchanson.service.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * This is an Example of how to swap the underlying Bean at Runtime.
+ */
 
 @RestController
 public class SwapServiceController {

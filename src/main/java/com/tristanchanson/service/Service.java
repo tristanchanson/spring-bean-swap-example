@@ -1,7 +1,7 @@
 package com.tristanchanson.service;
 
 /**
- * Created by Tristan on 6/27/15.
+ * This Interface is required to support the Swapping of the underlying bean
  */
 public interface Service {
 

@@ -3,7 +3,7 @@ package com.tristanchanson.service.mock;
 import com.tristanchanson.service.Service;
 
 /**
- * Created by Tristan on 6/27/15.
+ * This Class represents the MockService Implementation
  */
 @org.springframework.stereotype.Service
 public class MockService implements Service {
